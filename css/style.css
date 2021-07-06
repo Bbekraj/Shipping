@@ -29,6 +29,11 @@
   z-index: 111111;
 }
 
+.submit button .btn {
+  color: #0a87fc;
+  padding: 10px 20px;
+}
+
 * {
   margin: 0px;
   padding: 0px;
@@ -615,7 +620,7 @@ footer {
 }
 
 .aboutus-main {
-  margin: 40px 0px;
+  margin: 20px 0px;
   font-size: 18px;
 }
 
@@ -624,6 +629,11 @@ footer {
   padding: 20px 0px;
   color: #db2404;
   margin: auto;
+}
+
+.aboutus-main .aboutus-title h2 {
+  border-bottom: 2px solid #db2404;
+  display: inline;
 }
 
 .aboutus-main .about-main-body {
@@ -678,7 +688,7 @@ footer {
 .ocean .route {
   text-transform: uppercase;
   padding: 5px 0px;
-  margin: 40px 0px;
+  margin: 15px 0px;
   position: relative;
 }
 
@@ -785,6 +795,10 @@ footer {
   margin-top: 5px;
 }
 
+.ocean .dates {
+  margin-top: -10px;
+}
+
 .ocean .dates label {
   font-size: 20px;
   letter-spacing: 0px;
@@ -822,6 +836,41 @@ footer {
 
 .ocean .datess button i {
   font-size: 30px;
+}
+
+.ocean .company {
+  text-transform: uppercase;
+  padding: 5px 0px;
+  margin: 40px 0px;
+  position: relative;
+}
+
+.ocean .company h4 {
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 0px;
+}
+
+.ocean .company::before {
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 160px;
+  width: 85%;
+  height: 1px;
+  background-color: #ccc;
+}
+
+.company .con-form label {
+  font-size: 20px;
+}
+
+.company .con-form input {
+  border: 2px;
+  outline: 0px;
+  -webkit-box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 3px 2px rgba(0, 0, 0, 0.5);
+  margin-top: 0px;
+  margin-bottom: 30px;
 }
 
 /* END FORM OCEAN  */

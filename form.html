@@ -86,9 +86,9 @@
         <section class="ocean">
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-9">
                         <div class="ocea-title">
-                            <h2>Ocean Prices or Maersk Spot</h2>
+                            <h2>Quote request </h2>
                         </div>
                         <div class="route">
                             <h4>route</h4>
@@ -98,18 +98,24 @@
                                 </button>
                             </span>
                             <div class="row py-3 route-form">
-                                <div class="col-lg-6">
+                                <div class="col-lg-4">
                                     <form>
-                                        <label for="ci">From (City, Country/Region)</label>
+                                        <label for="ci">From (Port, City, Country)</label>
                                         <input type="text" class="form-control" id="ci" placeholder="Enter city name">
                                     </form>
                                 </div>
-                                <div class="col-lg-6">
+                                <div class="col-lg-4">
                                     <form>
-                                        <label for="c">To (City, Country/Region)</label>
+                                        <label for="c" class="px-1">Port Of Discharge  Name</label>
                                         <input type="text" id="c" class="form-control">
                                     </form>
                                 </div>
+                                <div class="col-lg-4">
+                                  <form>
+                                      <label for="c">To (City, Country/Region)</label>
+                                      <input type="text" id="c" class="form-control">
+                                  </form>
+                              </div>
                             </div>
                         </div>
                         <div class="commodity">
@@ -197,15 +203,53 @@
                             </span>
                         </div>
                             <div class="row dates">
-                                <div class="col-lg-4">
-                                    <form>
-                                        <label for="ci">Expected Departure Date</label>
-                                        <input type="date" class="form-control rr" id="ci" placeholder="SELECT DATE">
-                                       <button class="btn btn-primary my-3">SEARCH</button>
-                                    </form>
+                                <div class="col-lg-8">
+                                    <div class="row">
+                                      <div class="col-lg-6">
+                                        <form>
+                                          <label for="ci">Effective Date</label>
+                                          <input type="date" class="form-control rr" id="ci" placeholder="SELECT DATE">                                           
+                                      </form>
+                                      </div>
+                                      <div class="col-lg-6">
+                                        <form>                                            
+                                          <label for="ci">Expiry date</label>
+                                          <input type="date" class="form-control rr" id="ci" placeholder="SELECT DATE">                               
+                                      </form>
+                                      </div>
+
+                                    </div>
                                 </div>                                
                             </div>
-                        
+                            <div class="company py-0">
+                              <h4>COMPANY Details</h4>
+                              
+                              <div class="row con-form">
+                                <div class="col-lg-12">
+                                  <div class="row">
+                                    <div class="col-lg-6">
+                                      <form>
+                                        <label for="exampleDataList" class="form-label">Company name</label>
+                                        <input class="form-control" id="exampleDataList" placeholder="Enter Company name" >                                        
+                                        <label for="exampleDataList" class="form-label">Your location (Country/ Region)</label>
+                                        <input class="form-control" id="exampleDataList" placeholder="Enter your address" >                             
+                                    </form>
+                                    </div>
+                                    <div class="col-lg-6">
+                                      <form>
+                                        <label for="exampleDataList" class="form-label">Email Address</label> 
+                                         <input class="form-control" type="text" id="exampleDataList" placeholder="Enter Email Address" >                                        
+                                        <label for="exampleDataList" class="form-label">Contact number</label>
+                                        <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Enter Contact number" > 
+                                         <div class="submit">
+                                           <button class="btn btn-primary">Submit</button>
+                                         </div>                                                                             
+                                    </form>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>                          
                     </div>
                 </div>
             </div>
