@@ -1,0 +1,79 @@
+
+@media(max-width: 600px) {
+    //index------only----------start------
+//////////////////////////////////////////////////
+/////////////////////////////index
+/////////////////////////////////
+///////////////
+///////////////////
+
+    .containe{
+        padding: 50px;
+   }
+    .menu{display: block;}
+    .info-one-body {
+        height: auto;
+        background: linear-gradient(359deg, #f7efe8, #f3ede100);
+        color: #0b0b0c;
+        position: relative;
+        top: 0;
+        width: 100%;
+        padding: 33px;
+        font-size: 20px;
+		left: 0;
+		margin-bottom: 10px;
+        text-align: center;
+        font-family: 'Teko', sans-serif;
+        font-weight: bold;
+        line-height: 25px;
+    }
+	.flex{flex-wrap: wrap;}
+	.info-top::before {
+		content: '';
+		width: 243px;
+		height: 1px;
+		background: rgba(0, 0, 5, 0.3);
+		position: absolute;
+		left: 23%;
+		bottom: 0;
+	}
+	.info-three .info-three-body {
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: auto;
+		margin-bottom: 34px;
+		text-align: center;
+		background: rgba(255, 255, 255, 0.7);
+	}
+	.info-four .info-four-body {
+		margin-bottom: 20px;
+		position: relative;
+		top: 0;
+		left: 0;
+		width: 100%;
+		text-align: center;
+		height: auto;
+		background: rgba(255, 255, 255, 0.7);
+	}
+	.shipping-second{ margin: 20px 0px 10px 0px;flex-flow: column; }
+	.shipping-second .shipping-header{left: 30%;}
+    .log-box{margin: 10px 0px;}
+    
+
+    /////////////////////////////////
+    ////////////////////
+    ///////////////
+    ////////////////////
+    ////////////////
+    /////////////
+    ///end///index///
+
+    //////////////start///////form///////
+    ///////////////
+
+
+    //////////////end ////////////////form////@at-root///////////
+    //////////////////////////////
+  } 
