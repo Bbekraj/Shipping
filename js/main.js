@@ -5,11 +5,11 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 
 $(window).scroll(function(){
     if($(this).scrollTop()>100){
-        $(".header").addClass("sticky")
+        $("header").addClass("sticky")
         $(".array").show()
     }
     else{
-        $(".header").removeClass("sticky")
+        $("header").removeClass("sticky")
         $(".array").hide()
     }
 })

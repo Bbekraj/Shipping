@@ -1,6 +1,6 @@
 @import 'var';
 @import 'extends';
-@import 'res';
+
 
 
 *{
@@ -15,11 +15,6 @@ body{
 }
 img{
 	display: block;
-}
-header
-{	
-	padding:0px 0px 5px 0px ;
-	transition: 0.5s linear;
 }
 .logo img
 {
@@ -43,31 +38,32 @@ a{
 	justify-content: space-between;
 	
 }
+ .navbar-toggler-icon i { font-size: 40px; margin-top: -4px; margin-left: -3px;}
+ .navbar-toggler-icon{  display: block;}
+.navbar{	 
+		padding: 0px;
+		.collapse 
+		{
+			ul
+			{ 
+				li
+				{ 
+					a
+					{
+					color: rgb(11, 153, 172);
+					font-size: 18px;
+					&:hover{
+						color: orangered;
+					}
+					}
+				}
+				
+			}
+		}
+}
 .bbek{
 	max-width: 1350px;
 	margin: auto;
-}
-.header{
-	
-	background:#fff;	
-	
-}
-
-
-nav{
-	margin:-40px 0px 0px 220px;
-}
-.nav-link
-{
-	color: black;
-	font-size:14px;
-	font-weight:bold;
-
-}
-.nav-link:hover
-{
-	color: var(--b);
-
 }
 .banner-bbek
 {
@@ -1028,7 +1024,7 @@ footer{
 /*end air*/
 
 
-@media(max-width: 600px) {
+@media(max-width: 700px) {
     //index------only----------start------
 //////////////////////////////////////////////////
 /////////////////////////////index
@@ -1090,7 +1086,9 @@ footer{
 	.shipping-second{ margin: 20px 0px 10px 0px;flex-flow: column; }
 	.shipping-second .shipping-header{left: 30%;}
     .log-box{margin: 10px 0px;}
-    
+	 
+
+	 
 
     /////////////////////////////////
     ////////////////////

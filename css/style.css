@@ -46,75 +46,10 @@ select label {
   margin-top: 20px;
 }
 
-@media (max-width: 600px) {
-  .containe {
-    padding: 50px;
-  }
-  .air-title h2 {
-    text-align: center;
-  }
-  .info-one-body {
-    height: auto;
-    background: linear-gradient(359deg, #f7efe8, #f3ede100);
-    color: #0b0b0c;
-    position: relative;
-    top: 0;
-    width: 100%;
-    padding: 33px;
-    font-size: 20px;
-    left: 0;
-    margin-bottom: 10px;
-    text-align: center;
-    font-family: 'Teko', sans-serif;
-    font-weight: bold;
-    line-height: 25px;
-  }
-  .flex {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .info-top::before {
-    content: '';
-    width: 243px;
-    height: 1px;
-    background: rgba(0, 0, 5, 0.3);
-    position: absolute;
-    left: 23%;
-    bottom: 0;
-  }
-  .info-three .info-three-body {
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: auto;
-    margin-bottom: 34px;
-    text-align: center;
-    background: rgba(255, 255, 255, 0.7);
-  }
-  .info-four .info-four-body {
-    margin-bottom: 20px;
-    position: relative;
-    top: 0;
-    left: 0;
-    width: 100%;
-    text-align: center;
-    height: auto;
-    background: rgba(255, 255, 255, 0.7);
-  }
-  .shipping-second {
-    margin: 20px 0px 10px 0px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: column;
-            flex-flow: column;
-  }
-  .shipping-second .shipping-header {
-    left: 30%;
-  }
-  .log-box {
-    margin: 10px 0px;
-  }
+.phonemenu {
+  color: #000;
+  font-size: 43px;
+  display: none;
 }
 
 * {
@@ -132,12 +67,6 @@ body {
 
 img {
   display: block;
-}
-
-header {
-  padding: 0px 0px 5px 0px;
-  -webkit-transition: 0.5s linear;
-  transition: 0.5s linear;
 }
 
 .logo img {
@@ -163,27 +92,32 @@ a {
           justify-content: space-between;
 }
 
+.navbar-toggler-icon i {
+  font-size: 40px;
+  margin-top: -4px;
+  margin-left: -3px;
+}
+
+.navbar-toggler-icon {
+  display: block;
+}
+
+.navbar {
+  padding: 0px;
+}
+
+.navbar .collapse ul li a {
+  color: #0b99ac;
+  font-size: 18px;
+}
+
+.navbar .collapse ul li a:hover {
+  color: orangered;
+}
+
 .bbek {
   max-width: 1350px;
   margin: auto;
-}
-
-.header {
-  background: #fff;
-}
-
-nav {
-  margin: -40px 0px 0px 220px;
-}
-
-.nav-link {
-  color: black;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-.nav-link:hover {
-  color: var(--b);
 }
 
 .banner-bbek {
@@ -1100,7 +1034,7 @@ footer {
 }
 
 /*end air*/
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .containe {
     padding: 50px;
   }
