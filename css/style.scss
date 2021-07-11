@@ -53,21 +53,7 @@ a{
 	
 }
 
-.header-top .menu{
-	padding: 30px 10px 0px 10px;
-	font-size: 15px;
-}
-.header-top .menu ul li
-{
-display: inline-block;
-}
-.header-top .menu ul li a{
-	padding: 0px 7px;
-}
-.header-top .menu ul li a:hover,.header-top .menu ul li a:focus
-{
-	color:var(--b); 
-}
+
 nav{
 	margin:-40px 0px 0px 220px;
 }
@@ -176,6 +162,10 @@ nav{
 .banner-down .card:last-child{
 	border-left: 2px solid gray;
 }
+.banner-down .card:first-child{
+	border-right: 2px solid gray;
+}
+
 .banner-down .card:hover
 {
 	box-shadow: 0px 9px  15px 0px rgba(0, 0, 0, 0.3);
@@ -297,12 +287,15 @@ margin-bottom: 40px;
 .log-body{
 	padding:10px 10px;
     font-family: 'Crimson Text', serif;
-    text-align: center;
+   
 }
 
 
 .log-body h6 a{
-	color: var(--b);
+	color: #0b0b0c;
+	text-align: justify;
+	
+	font-family: 'Work Sans', sans-serif;
 
 }
 .log-body h6 a:hover{
@@ -368,9 +361,10 @@ padding-top: 40px;
     line-height: 25px;
 }
 .info-one-body p{
-	font-size:15px;
+	font-size:25px;
+	color: #212529;
 	font-weight:400;
-	font-family: 'Work Sans', sans-serif;
+	
 	line-height:20px;
 	padding-bottom: 20px;
 
@@ -457,14 +451,14 @@ footer{
 
 }
 .footer-up ul li a h3{
-	color: black;
+	color: rgb(252, 248, 248);
 	font-size: 17px;
 	font-weight: bolder;
 }
 .footer-up ul li a{
 	line-height: 2.7rem;
 	font-size: 17px;
-	color: #757575;
+	color: #fcfafa;
 	font-weight: 400;
     
 
@@ -474,7 +468,7 @@ footer{
 	color: var(--b);
 }
 .footer-down{
-	background: #eee;
+	background: rgb(5, 5, 5);
 	padding:40px 0px 6px 0px;
     .footer-title
     {
@@ -482,7 +476,8 @@ footer{
      {
          font-size: 20px;
          font-weight:600;
-         font-family:'Teko', sans-serif;;
+		 color: #eee;
+         font-family:'Teko', sans-serif;
      }
     }
 
@@ -491,7 +486,7 @@ footer{
         a{
             padding:10px;
             line-height: 2rem;
-            color: #757575;
+            color:#d4c9c9;
         }
     }
     .icons 
@@ -571,10 +566,10 @@ footer{
 	{
 	text-align: center;
 	padding: 20px 0px;	
-	color: rgb(219, 36, 4);
+	color: rgb(68, 198, 208);
 	margin: auto;
 	h2 
-	{ border-bottom: 2px solid rgb(219, 36, 4);
+	{ border-bottom: 2px solid rgb(253, 63, 30);
 		display: inline;
 		
 	}
@@ -969,6 +964,7 @@ footer{
 		 .image-in
 		 { overflow: hidden;
 			position: absolute;
+			width: 100%;
 			top:0;
 			left: 20px;
 			
@@ -1043,7 +1039,8 @@ footer{
     .containe{
         padding: 50px;
    }
-    .menu{display: block;}
+    
+	.air-title h2{text-align: center;}
     .info-one-body {
         height: auto;
         background: linear-gradient(359deg, #f7efe8, #f3ede100);
